@@ -1,0 +1,133 @@
+/* tablet portrait and above */
+@media (min-width: 768px) {
+    
+    #navbar .navbar-nav > li {
+    margin-left: 5px;
+    }
+
+    #navbar .navbar-nav > li:first-child {
+        margin-left: 0;
+    }
+
+    #navbar .navbar-nav > li > a {
+        background-color: #3185CB;
+        border-radius: 5px;
+        box-shadow: 0 3px #2B75B3;
+    }
+    
+    #navbar .navbar-nav > li > a:hover,
+    #navbar .navbar-nav > li.active > a {
+        background-color: #B0CD05;
+        box-shadow: 0 3px #8CA302;
+    }
+    
+    .featured-block {
+        float: left;    
+        width: 32%;
+        margin-left: 2%;        
+    }
+    
+    #home-main-content {
+        padding-top: 100px;
+    }
+    
+} /* End of @media (min-width: 768px) */
+
+/* tablet landscape and above */
+@media (min-width: 1024px) {
+    
+} /* End of @media (min-width: 1024px) */
+
+@media (min-width: 1200px) {
+    
+} /* End of @media (min-width: 1200px) */
+
+@media (min-width: 1400px) {
+    
+} /* End of @media (min-width: 1400px) */
+
+/* tablet landscape and below */
+@media (max-width: 1024px) {    
+    #home-banner-btn {
+        margin-top: 70px;
+    }
+} /* End of @media (max-width: 1024px) */
+
+/* tablet portrait and below */
+@media (max-width: 768px) {    
+    #header .container {
+        height: initial;
+    }
+    
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+} /* End of @media (max-width: 768px) */
+
+/* tablet portrait */
+@media (max-width: 768px) and (min-width: 768px) {
+    #navbar {
+        font-size: 12px;
+        font-size: 1.2rem;
+    }
+    
+    .featured-block {
+        height: 180px;
+    }
+    
+    #hfb1 span,
+    #hfb3 span {
+        font-size: 48px;
+        font-size: 4.8rem;
+    }
+    
+    #hfb1 span {
+        top: calc(100% - 2 * 48px);
+    }
+} /* End of @media (max-width: 768px) and (min-width: 768px) */
+
+/* Mobile */
+@media (max-width: 767px) {    
+    #header #logo,
+    #header #header-links {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    #header #logreglang {
+        display: none;
+    }
+    
+    #header #header-links {
+        width: 100%;
+    }
+    
+    #header #navbar-wrap {
+        margin-top: 0;
+    }
+    
+    #home-banner-btn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    #home-featured-blocks {
+        margin-top: 0;
+    }
+    
+    #home-featured-blocks .featured-block {
+        margin-top: 20px;
+    }
+    
+    #game-categories-slider li span[class*="term-"] {        
+        font-weight: 300;
+        font-size: 18px;
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 320px) {
+    
+}

@@ -1,0 +1,12 @@
+<!--<script src="js/jquery.min.js"></script>-->
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.smartmenus.min.js"></script>
+<script src="js/jquery.smartmenus.bootstrap.min.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/browser-detect.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/styles.js"></script>
